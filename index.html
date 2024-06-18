@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet"href="style.css"type="text/css">
+    <title>javascript</title>
+</head>
+<body>
+    <h1 id="message"></h1>
+    <div class="table">
+    <h2>inches</h2><br>
+ <div class="txtbox">
+    <input type="text"id="textbox" placeholder="enter the value">
+</div>
+<div class="btn">
+    <button type="submit" onclick="convert()">current inches</button>
+</div>
+<div class="result">
+
+</div>
+</div>
+    <!-- <script src="script.js"></script> -->
+    <script>
+function convert(){
+    let cmval = Number(document.getElementById("textbox").value)
+    let inchval = cmval/2.54
+    let result = document.getElementById("result")
+    result.innerHTML=inchval
+}
+  </script>
+</body>
+</html>

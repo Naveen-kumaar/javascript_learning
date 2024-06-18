@@ -1,0 +1,20 @@
+
+.head{
+    background-color: burlywood;
+    border: 2px solid;
+    padding: 30px;
+    align-items: center;
+    margin: 90px;
+    
+}
+.txt{
+    display:block;
+    border: 2px solid;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+}
+.btn{
+    align-items: center;
+    margin-left: 50px;
+}

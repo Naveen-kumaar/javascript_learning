@@ -1,0 +1,33 @@
+body{
+    background-color: dimgray;
+    align-items: center;
+}
+h2{
+    text-transform: capitalize;
+    text-decoration: solid;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    border: 1px solid black;
+    align-items: center;
+    width:600px;
+    margin-left: 50px;
+    margin:60px;
+    justify-content: center;
+}
+input{
+    border-radius: 8px;
+    height: 28px;
+    width:300px;
+    box-shadow: 2px 3px 1px 1px;
+}
+button{
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px 1px;
+    background-color: slategrey;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    width:120px;
+    height: 30px;
+}

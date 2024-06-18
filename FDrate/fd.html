@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="/FDrate/fd.css"type="text/css">
+    <title>FD rate calculator</title>
+</head>
+<body>
+    <div class="container">
+    <div>
+        <h2>FD rate calculator</h2>
+    </div>
+    
+    <input type="textbox" id="name"placeholder="enter the value">
+    <button type="submit" id="btnd" onclick="fdrate()">calculate</button>
+    <div id="result">
+
+    </div>
+    </div>
+    <script>
+
+        function fdrate(){
+          const months= Number(document.getElementById("name").value)
+          let rate=0
+          //else if ladder
+          if(months<3){
+            rate=5.8;
+          }
+          else if(months>=3 && months<=6){
+            rate=6.5;
+          }
+          else if(months>=7 && months<=9)
+          {
+            rate=6.8; 
+           }
+
+           else{
+            rate=7;
+           }
+           let result=document.querySelector("#result")
+           result.innerHTML=" your rate is"+rate+"%"
+
+        }
+    </script>
+</body>
+</html>

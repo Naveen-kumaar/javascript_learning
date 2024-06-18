@@ -1,0 +1,46 @@
+html,
+body{
+   margin: 0;
+   font-family: 'Apple Chancery', cursive;
+}
+#heading{
+    color:blue;
+}
+#container{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(243, 193, 117);
+
+    margin-top: 100px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    width: 400px;
+    height: 200px;
+}
+h2{
+    align-items: center;
+    color:rgb(223, 52, 22);
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+select{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: rgb(252, 252, 182);
+    margin-left: 60px;
+}
+button{
+    border-radius: 6px;
+    width: 100px;
+    padding:6px;
+    margin-top: 20px;
+    margin-left:100px;
+    font-family: 'Apple Chancery', cursive;
+    text-transform: uppercase;
+    text-decoration: solid;
+    background-color: rgb(252, 252, 182);
+    color:rgb(223, 52, 22);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="/lenghtconverter/index.css"type="text/css">
+    <link rel="icon"href="./images/download.png">
+    <title>length converter</title>
+</head>
+<body>
+    <div class="head">
+        <h1>inches to cm</h1>
+        <div id="txt">
+<input type="textbox" id="input" name="textbox"placeholder="enter the value">
+      </div>
+      <div class="btn">
+        <button type="submit" onclick="conver()">submit</button>
+      </div>
+      <div id="result">
+
+      </div>
+    </div>
+    <script>
+        function conver(){
+            let cmval = Number(document.getElementById("input").value)
+        let inchval = cmval* (9/5)+32
+        let result = document.getElementById("result")
+        result.innerHTML=inchval.toFixed(2)+"fahrenheit"
+        }
+       
+    </script>
+</body>
+</html>
